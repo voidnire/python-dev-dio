@@ -1,3 +1,6 @@
+from datetime import datetime, timedelta
+import pytz
+
 menu = """
 
 [d] depositar
@@ -12,6 +15,7 @@ limite = 500
 extrato = ""
 numero_saques = 0
 LIMITES = 3
+
 
 while True:
 
